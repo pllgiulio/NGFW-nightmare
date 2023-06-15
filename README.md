@@ -8,17 +8,17 @@ You must run firstly the script on the server, that opens a listener, and then t
 ## Server script
 
 Usage:
->	python shell-client.py -s \<SERVER\> [-p \<PORT\> -b \<BUFFER_SIZE\>]
+>	python shell-server.py [-p \<PORT\> -b \<BUFFER_SIZE\>]
 
 Examples:
->	python shell-client.py -s 192.168.100.54 -p 44444 -b 50
+>	python shell-server.py -p 44444 -b 50
   
->	python shell-client.py -s example.com -p 44444 -b 50
+>	python shell-server.py -p 44444 -b 50
 
 Default values:
->	-p 33333 (must be the same of server)
+>	-p 33333 (must be the same of client)
   
->	-b 100 (must be the same of server)
+>	-b 100 (must be the same of client)
 
 
 
